@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MadlibForm from './madlib_forms';
 
 export default class App extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class App extends Component {
                 Fill out the fields below and click the generate button<br/>to see the Madness!
               </div>
            </div>
+           <MadlibForm />
         </div>  
       </div>   
     );
