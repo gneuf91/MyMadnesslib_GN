@@ -2,3 +2,7 @@
 @import 'variables';
 @import 'components/madnesslib_form';
 @import 'header';
+
+body {
+    font-family: $font-primary;
+}
